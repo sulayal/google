@@ -1,0 +1,63 @@
+import turtle as tk
+
+tk.bgcolor('gold')
+tk.speed(20)
+for i in range (25):
+    tk.right(215),
+    tk.forward(170),
+    tk.left(150),
+    tk.begin_fill(),
+    tk.color('red'),
+    tk.forward(150),
+    tk.left(-80),
+    tk.forward(150),
+    tk.right(215),
+
+    tk.forward(150),
+    tk.left(-80),
+    tk.forward(150),
+    tk.right(215),
+    tk.forward(150),
+    tk.left(-80),
+    tk.end_fill(),
+ 
+    tk.forward(150),
+    tk.right(215),
+    tk.forward(150),
+    tk.end_fill(),
+    tk.left(-80),
+    tk.forward(150),
+    tk.right(215),
+    tk.forward(200)
+  
+tk.goto(3,3)
+tk.begin_fill()
+tk.color('blue')
+tk.circle(35,180)
+tk.end_fill()
+tk.color('blue')
+
+tk.goto(3,3)
+tk.begin_fill()
+tk.color('orange')
+tk.circle(35,180)
+tk.end_fill()
+tk.color('red')
+
+tk.goto(-100,120)
+tk.color('gold')
+tk.write("HAPPY HOLI", font=('Arial', 25, 'bold'))
+tk.color('red')
+
+
+tk.goto(25,90)
+tk.color('orange')
+tk.write("Layalu Heritage", font=('Arial', 15, 'bold'))
+
+tk.color('red')
+
+tk.goto(70,-80)
+tk.color('yellow')
+tk.write("   datenumbers.com", font=('Helvetica', 10, 'bold'))
+
+tk.exitonclick()
