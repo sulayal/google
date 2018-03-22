@@ -12,8 +12,8 @@ def greatest(list_of_numbers):
     return b
     
 def smallest(list_of_numbers):
-    b =0
     for i in list_of_numbers:
-        if b<i:
-            if i!=0:
-                    return i
+        a= sorted(list_of_numbers)
+        i =a[0]
+        return i
+    
