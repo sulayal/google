@@ -10,3 +10,10 @@ def greatest(list_of_numbers):
         if i>b:
             b=i
     return b
+    
+def smallest(list_of_numbers):
+    b =0
+    for i in list_of_numbers:
+        if b<i:
+            if i!=0:
+                    return i
