@@ -16,4 +16,11 @@ def smallest(list_of_numbers):
         a= sorted(list_of_numbers)
         i =a[0]
         return i
+	
+def bubbleSort(mylist):
+	for a in range(0, len(mylist)-1):
+		for z in range(0, len(mylist)-1 -a):
+			if mylist[z]>mylist[z+1]:
+				mylist[z],mylist[z+1] = mylist[z+1],mylist[z]
+	return mylist
     
