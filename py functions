@@ -23,4 +23,5 @@ def bubbleSort(mylist):
 			if mylist[z]>mylist[z+1]:
 				mylist[z],mylist[z+1] = mylist[z+1],mylist[z]
 	return mylist
+print(ord(bubbleSort(listm[4])))
     
